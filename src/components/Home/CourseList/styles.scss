@@ -1,0 +1,22 @@
+.cousrse-list-container {
+	padding: 24px 0px 0px 12px;
+
+	.cousrse-list-content {
+		background: #f6f7fa;
+
+		.title {
+			text-align: center;
+
+			font-family: "Poppins";
+			font-style: normal;
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 135%;
+			/* identical to box height, or 54px */
+
+			color: #1e232c;
+
+			margin-bottom: 30px;
+		}
+	}
+}

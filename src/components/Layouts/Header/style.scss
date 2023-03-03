@@ -1,0 +1,77 @@
+.nav-container {
+	max-width: 1440px;
+	height: 80px;
+
+	.content-area {
+		max-width: 1200px;
+		padding: 10px 30px;
+
+		.nav-logo {
+			width: 57.23px;
+			height: 58px;
+		}
+
+		.search-field {
+			box-sizing: border-box;
+			width: 286px;
+			height: 40px;
+
+			background: #ffffff;
+
+			border: 1px solid #e8ecf4;
+			border-radius: 8px;
+
+			padding: 16px;
+		}
+
+		.nav-button {
+			padding: 15px;
+			// width: 60px;
+		}
+
+		.nav-button-link {
+			// width: 42px;
+			height: 21px;
+
+			font-family: "Poppins";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 21px;
+			/* identical to box height */
+
+			display: flex;
+			align-items: center;
+
+			color: #1e232c;
+		}
+
+		.nav-action-button {
+			width: 80px;
+			height: 40px;
+			margin: 0px 10px;
+
+			box-sizing: border-box;
+
+			background: #ffffff;
+			border: 1px solid #008cc9;
+			border-radius: 8px;
+
+			font-family: "Open Sans";
+			font-style: normal;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 22px;
+
+			text-align: center;
+		}
+
+		.login-button-color {
+			color: #008cc9;
+		}
+
+		.signup-button-color {
+			background: #008cc9;
+		}
+	}
+}

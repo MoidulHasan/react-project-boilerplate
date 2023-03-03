@@ -1,14 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
+.main-layout {
+	margin: 0 auto;
+	background-position: center;
+	background-size: contain;
+	max-width: 1440px;
 
-.main-layout{
-    margin: 0 auto;
-    background-position:center;
-    background-size: contain;
-
-    .layout-children{
-        margin: 0 auto;
-    }
+	.layout-children {
+		margin: 0 auto;
+	}
 }
