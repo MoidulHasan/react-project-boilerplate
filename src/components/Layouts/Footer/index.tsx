@@ -8,9 +8,10 @@ export const AppFooter = () => {
     <div className='footer-container'>
       <div className='subscription-container flex justify-center'>
         <div className='subscription'>
-          {/* <EmailSubscription /> */}
+          <EmailSubscription />
         </div>
+
       </div>
-    </div>
+    </div >
   );
 };

@@ -38,4 +38,24 @@
 
 		color: #ffffff;
 	}
+
+	.subscribe-button {
+		box-sizing: border-box;
+
+		width: 120px;
+		height: 48px;
+
+		border: 1px solid #ffffff;
+		border-radius: 8px;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 16px;
+		text-align: center;
+		text-transform: uppercase;
+
+		color: #ffffff;
+	}
 }
