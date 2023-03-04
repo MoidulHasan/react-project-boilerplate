@@ -2,4 +2,45 @@
 	background: #ffffff;
 	border: 1px dashed #e8e8e8;
 	border-radius: 12px;
+	padding: 0px;
+
+	.cover-image {
+		width: 100%;
+		// max-height: 210px;
+	}
+
+	.course-metadata {
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+		/* identical to box height */
+
+		display: flex;
+		align-items: center;
+
+		color: #f58634;
+	}
+
+	.ratting {
+		width: 50px;
+		height: 24px;
+
+		background: #058e23;
+		border-radius: 4px;
+	}
+
+	.course-title {
+		margin: 6px 0px 12px 0px;
+
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 28px;
+		/* or 140% */
+
+		color: #1e232c;
+	}
 }
