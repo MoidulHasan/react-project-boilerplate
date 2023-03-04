@@ -50,7 +50,7 @@ export const AppFooter = () => {
         </div>
 
 
-        <div className='border-t grid grid-cols-2 py-5 mt-5'>
+        <div className='border-t flex flex-col-reverse md:flex-row justify-between py-5 mt-5'>
           <p>© 2022 allthebestapp.com. All rights reserved.</p>
           <div className='divide-x divide-gray-400'>
             <NavLink to={'./toc'} >
