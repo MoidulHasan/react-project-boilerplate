@@ -3,6 +3,8 @@
 
 	.cousrse-list-content {
 		background: #f6f7fa;
+		padding-top: 63px;
+		padding-bottom: 57px;
 
 		.title {
 			text-align: center;
@@ -12,11 +14,59 @@
 			font-weight: 700;
 			font-size: 40px;
 			line-height: 135%;
-			/* identical to box height, or 54px */
 
 			color: #1e232c;
 
 			margin-bottom: 30px;
+		}
+
+		.category {
+			width: 202px;
+			height: 40px;
+			border-radius: 8px;
+		}
+
+		.category-active {
+			background: #008cc9;
+			font-family: "Poppins";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 21px;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			color: #ffffff;
+		}
+
+		.course-list {
+			margin-top: 60px;
+		}
+
+		.course-discount-price {
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 25px;
+			/* identical to box height, or 104% */
+
+			color: #008cc9;
+		}
+
+		.course-regular-price {
+			font-family: "Poppins";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 25px;
+			/* identical to box height, or 179% */
+
+			text-decoration-line: line-through;
+
+			color: #6a707c;
 		}
 	}
 }
