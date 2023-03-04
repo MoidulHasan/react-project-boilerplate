@@ -7,7 +7,7 @@ export const CourseCard = (props: { course: ICourse }) => {
     const course = { ...props.course }
 
     return (
-        <div className='course-card '>
+        <div className='course-card'>
             <div>
                 <img className='w-full cover-image' src={`./courses/${course.coverImage}`} alt={course.title} />
             </div>

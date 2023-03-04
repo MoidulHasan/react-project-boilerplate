@@ -54,11 +54,14 @@ export const CoursesList = () => {
                     }
                 </div>
 
+
                 <div className='flex justify-center mt-12'>
-                    <NavLink className='category category-active' to="/courses">View More</NavLink>
+                    <NavLink className='view-more-button' to="/categroies">
+                        <button className='button-primary '>
+                            View More
+                        </button>
+                    </NavLink>
                 </div>
-
-
 
             </div>
         </div >

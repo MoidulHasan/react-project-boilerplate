@@ -16,9 +16,9 @@ export const AppHeader = () => {
     return (
         <div className='nav-container flex justify-center'>
             <div className='content-area flex justify-between items-center'>
-                <div>
+                <NavLink to={'/'} >
                     <img className='nav-logo' src="./logo.svg" alt="site logo" />
-                </div>
+                </NavLink>
 
                 <div className='hidden md:flex justify-end items-center '>
                     <div className='flex justify-between items-center'>
@@ -57,6 +57,6 @@ export const AppHeader = () => {
 
             </div>
 
-        </div>
+        </div >
     );
 };
