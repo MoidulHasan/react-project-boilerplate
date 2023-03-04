@@ -1,6 +1,7 @@
 export interface ICourse {
 	_id: number;
 	title: string;
+	category: string;
 	coverImage: string;
 	time: string;
 	lessons: number;
@@ -16,6 +17,7 @@ export const courses: ICourse[] = [
 	{
 		_id: 1,
 		title: "C++ Preparation Qn and Answers",
+		category: "Programming Interview",
 		coverImage: "course-1.svg",
 		time: "1:20 hrs",
 		lessons: 10,
@@ -29,6 +31,7 @@ export const courses: ICourse[] = [
 	{
 		_id: 2,
 		title: "C++ Preparation Qn and Answers",
+		category: "Programming Interview",
 		coverImage: "course-1.svg",
 		time: "1:20 hrs",
 		lessons: 10,
@@ -39,4 +42,13 @@ export const courses: ICourse[] = [
 		},
 		discount: 50,
 	},
+];
+
+export const categorys = [
+	"Programming Interview",
+	"OOPS",
+	"Programing",
+	"C++",
+	"Medidation",
+	"DBMS",
 ];
