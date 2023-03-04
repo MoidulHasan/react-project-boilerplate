@@ -15,15 +15,11 @@ export const HeroSlider = () => {
     const slideStyle = (bgImageUrl: string) => {
         return {
             backgroundImage: `url(${bgImageUrl})`,
-            height: '548px',
-            width: '1440px',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
         }
-
     }
-
     return (
         <div className='slide-container'>
             <Swiper
