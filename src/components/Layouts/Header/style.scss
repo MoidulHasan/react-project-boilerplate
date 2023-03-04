@@ -3,7 +3,7 @@
 	height: 80px;
 
 	.content-area {
-		max-width: 1200px;
+		width: 1200px;
 		padding: 10px 30px;
 
 		.nav-logo {
@@ -26,7 +26,6 @@
 
 		.nav-button {
 			padding: 15px;
-			// width: 60px;
 		}
 
 		.nav-button-link {
@@ -47,9 +46,10 @@
 		}
 
 		.nav-action-button {
-			width: 80px;
-			height: 40px;
+			max-width: 80px;
+			max-height: 40px;
 			margin: 0px 10px;
+			padding: 0.563rem 1.188rem;
 
 			box-sizing: border-box;
 
@@ -72,6 +72,95 @@
 
 		.signup-button-color {
 			background: #008cc9;
+		}
+
+		.download-from-playstore {
+			max-width: 122.11px;
+			height: 40px;
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1090px) {
+	.nav-container {
+		.content-area {
+			width: 1090px;
+			padding: 10px 30px;
+
+			.nav-logo {
+				width: 52.23px;
+				height: 52px;
+			}
+
+			.search-field {
+				box-sizing: border-box;
+				width: 200px;
+				height: 30px;
+
+				background: #ffffff;
+
+				border: 1px solid #e8ecf4;
+				border-radius: 8px;
+
+				padding: 12px;
+			}
+
+			.nav-button {
+				padding: 5px;
+				width: 65px;
+			}
+
+			.nav-button-link {
+				// max-width: 42px;
+				height: 21px;
+
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 500;
+				font-size: 10px;
+				line-height: 21px;
+				/* identical to box height */
+
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				color: #1e232c;
+			}
+
+			.nav-action-button {
+				max-width: 50px;
+				height: 30px;
+				margin: 0px 3px;
+				padding: 3px 5px;
+
+				box-sizing: border-box;
+
+				background: #ffffff;
+				border: 1px solid #008cc9;
+				border-radius: 8px;
+
+				font-family: "Open Sans";
+				font-style: normal;
+				font-weight: 600;
+				font-size: 12px;
+				line-height: 22px;
+
+				text-align: center;
+			}
+
+			.login-button-color {
+				color: #008cc9;
+			}
+
+			.signup-button-color {
+				background: #008cc9;
+			}
+
+			.download-from-playstore {
+				max-width: 80px;
+				height: 30px;
+			}
 		}
 	}
 }
